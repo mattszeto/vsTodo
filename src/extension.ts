@@ -9,6 +9,22 @@ export function activate(context: vscode.ExtensionContext) {
       HelloWorldPanel.createOrShow(context.extensionUri);
     })
   );
+
+  // refresh command on vscode to refresh webview and open dev tools
+  context.subscriptions.push(
+    vscode.commands.registerCommand("vstodo.refresh", () => {
+      // refresh
+      HelloWorldPanel.kill();
+      HelloWorldPanel.createOrShow(context.extensionUri);
+      // opens dev tools
+      setTimeout(() => {
+        vscode.commands.executeCommand(
+          "workbench.action.webview.openDeveloperTools"
+        );
+      }, 500);
+    })
+  );
+
   context.subscriptions.push(
     vscode.commands.registerCommand("vstodo.askQuestion", async () => {
       const answer = await vscode.window.showInformationMessage(
