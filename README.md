@@ -1,25 +1,11 @@
-### vscode extension (todo list)
+## Collection of vscode extension templates for reference
 
-todo list for vscode
-(mainly for learning how to create a vscode extension)
+for anyone interested in getting started with vscode extensions and need examples to work off of.
 
-#### technologies:
+### why?
 
-- webviews
-- svelte (front-end for webviews)
-- typescript
-- github oauth
-- API
-- (nodejs server to store data)
+created this list to reference easily as a cheatsheet for creating vscode extensions easily and more efficiently.
 
-#### helpful links:
+### want to contribute?
 
-- https://code.visualstudio.com/api/get-started/your-first-extension
-- https://github.com/microsoft/vscode-extension-samples (great example projects to look at)
-- will keep adding as I find more...
-
-#### how to run dev:
-
-- `npm install`
-- `npm run watch`
-- press f5 to run extensions.ts and open up the [Extension Development Host]
+Feel free to contribute by making a PR and adding a folder with a similar naming convention as all other folders.
