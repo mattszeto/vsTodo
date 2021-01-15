@@ -2,6 +2,10 @@
 
 for anyone interested in getting started with vscode extensions and need examples to work off of.
 
+### Current list of Templates:
+- todo list template
+- api for extension template
+
 ### why?
 
 created this list to reference easily as a cheatsheet for creating vscode extensions easily and more efficiently.
