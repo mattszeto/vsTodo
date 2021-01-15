@@ -3,8 +3,8 @@
 for anyone interested in getting started with vscode extensions and need examples to work off of.
 
 ### Current list of Templates:
+- api for extension example
 - todo list template
-- api for extension template
 
 ### why?
 
